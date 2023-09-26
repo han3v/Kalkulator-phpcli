@@ -1,5 +1,10 @@
 #!/usr/bin/php
 <?php 
+echo "
+====================================================
+               {Kalkulator PHP-CLI}
+====================================================
+";
 echo "Masukan Nilai 1 : ";
   $input_nomor = fopen("php://stdin","r");
   $satu = trim(fgets($input_nomor));
